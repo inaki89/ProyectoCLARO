@@ -21,5 +21,28 @@
         "business": null
       }
     }
+  },
+  "crm": {
+    "request": {
+      "url": "https://validate-business-portabilidad-ar-desa.apps.osen02.claro.amx/validate-business/portingRanges",
+      "method": "POST",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "billNumber": "numeroCelular"
+      }
+    },
+    "response":{
+      "status": 200,
+      "body":{
+        "error": null,
+        "business": null
+      },
+      "default":{
+        "error": "La linea consultada no es valida",
+        "business": null
+      }
+    }
   }
 }
