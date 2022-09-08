@@ -17,6 +17,7 @@ Feature: Validacion Servicios
 
         Examples:
        | numero                                                               | condicion |
-       | 3412419999                                                           | FIJO      |
+       | 3412419999         
+                                                         | FIJO      |
        
       
