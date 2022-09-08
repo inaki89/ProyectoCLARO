@@ -18,6 +18,6 @@ Feature: Validacion Servicios
         Examples:
        | numero                                                               | condicion |
        | 3412419999         
-       cambio                                                  | FIJO      |
+       cambiokjh                                                  | FIJO      |
        
       
